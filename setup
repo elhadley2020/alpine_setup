@@ -1,0 +1,14 @@
+setup-xorg-base
+apk add alpine-desktop
+apk add xfce4
+apk add thunar-volman
+apk add faenza-icon-theme
+apk add leafpad
+apk add libreoffice
+apk add slim
+rc-service dbus start
+rc-update add dbus
+rc-service udev start
+rc-update add udev
+rc-update add slim
+apk add xfce4-terminal
